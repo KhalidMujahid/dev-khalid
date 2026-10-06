@@ -1,6 +1,6 @@
 ﻿# Khalid Zikirullah | Portfolio
 
-A responsive portfolio built with HTML, CSS, and vanilla JavaScript. Warm neutrals, editorial typography, and a personal portrait.
+A responsive portfolio built with HTML, CSS, and vanilla JavaScript. Warm neutrals, editorial typography, and a typography-led hero.
 
 ## Run locally
 Serve this folder with an IDE static server such as VS Code Live Server. No dependencies or build step are required. Relative asset paths support subdirectory hosting.
@@ -15,4 +15,4 @@ The existing ecommerce screenshot is presented as an interface study. Add verifi
 
 The contact form does not send or store submissions. It prepares a message for copying; connect a delivery service and verified contact details to enable direct delivery.
 
-Google Fonts supplies DM Sans and Manrope, with system fallbacks. The local images are the original portrait and storefront screenshot.
+Google Fonts supplies DM Sans and Manrope, with system fallbacks. The local images are the original storefront screenshot and unused portrait.
