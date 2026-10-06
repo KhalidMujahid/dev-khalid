@@ -1,18 +1,19 @@
-﻿# Khalid Zikirullah | Portfolio
+﻿# Edward King Agada | Audit Portfolio
 
-A responsive portfolio built with HTML, CSS, and vanilla JavaScript. Warm neutrals, editorial typography, and a typography-led hero.
+A responsive portfolio for an independent Klaviyo email and retention infrastructure auditor. Built with HTML, CSS, and vanilla JavaScript, with an image-free hero and ivory/sage styling.
 
 ## Run locally
-Serve this folder with an IDE static server such as VS Code Live Server. No dependencies or build step are required. Relative asset paths support subdirectory hosting.
+Serve the folder using an IDE static server such as VS Code Live Server. No dependencies or build step are required.
 
-## Features
-- Responsive layout, keyboard focus styles, skip navigation, and reduced-motion support.
-- Project filters and a native project preview dialog.
-- Contact message preparation and clipboard copying with a manual fallback.
+## Content
+Selected findings for MOSH, Jolie, and an anonymized women's health DTC brand, plus professional background, skills, experience, and education. Audit findings are supplied historical observations, not live assessments. Full reports are available by email request.
 
-## Customize
-The existing ecommerce screenshot is presented as an interface study. Add verified project details and live/source links when available. Backend projects currently display an empty state.
+## Contact
+Email links open the visitor's email application. Website and LinkedIn links use the supplied public addresses. No submissions are collected or stored by this site.
 
-The contact form does not send or store submissions. It prepares a message for copying; connect a delivery service and verified contact details to enable direct delivery.
+## Files
+- `index.html`: portfolio content and contact links.
+- `style.css`: responsive styling and reduced-motion support.
+- `main.js`: navigation state and current footer year.
 
-Google Fonts supplies DM Sans and Manrope, with system fallbacks. The local images are the original storefront screenshot and unused portrait.
+Google Fonts provides DM Sans and Manrope with system fallbacks. Original JPG assets are retained but unused.

@@ -987,3 +987,64 @@ dialog>img {
     font-size: 13px;
   }
 }
+
+/* Audit portfolio */
+.hero h1 { font-size: clamp(60px, 9vw, 116px); }
+.hero-role { line-height: 1.6; }
+.location { font-size: 11px; color: var(--muted); margin-top: 16px; line-height: 1.7; }
+.audit-method { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; border-top: 1px solid var(--line); padding: 24px 0 30px; }
+.audit-method p { font-size: 12px; line-height: 1.9; color: var(--muted); margin-bottom: 0; }
+.audit-method a { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+.audit-card { border: 1px solid var(--line); border-radius: 5px; padding: 32px; margin-top: 20px; }
+.audit-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; }
+.audit-heading > div { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.audit-index { font-size: 10px; color: var(--muted); }
+.audit-heading h3 { font-size: 25px; margin: 0; }
+.audit-heading a, .anonymous { font-size: 11px; color: var(--muted); }
+.audit-heading > p { font-size: 11px; line-height: 1.8; color: var(--muted); margin-bottom: 0; text-align: right; }
+.audit-stack { font-size: 10px; color: var(--muted); margin: 14px 0 26px; }
+.finding { display: grid; grid-template-columns: 85px 1fr; gap: 22px; padding: 23px 0; border-top: 1px solid var(--line); }
+.finding:last-child { padding-bottom: 0; }
+.severity { align-self: start; justify-self: start; border-radius: 3px; padding: 5px 8px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
+.critical { color: #8a342e; background: #f0dfd9; }
+.high { color: #76531c; background: #eee6d1; }
+.finding h4 { margin: 0 0 9px; font-size: 14px; font-weight: 500; line-height: 1.6; }
+.finding p { font-size: 12px; line-height: 1.9; color: var(--muted); max-width: 790px; margin-bottom: 0; }
+code { font-family: monospace; background: #eaece2; border-radius: 3px; padding: 2px 5px; }
+.about-link { display: inline-block; margin-top: 24px; }
+.tool h3 { font-size: 19px; padding-top: 35px; }
+.tool li { font-size: 11px; line-height: 1.7; }
+.tools-used { display: flex; align-items: baseline; gap: 30px; padding-top: 28px; }
+.tools-used h3 { font-size: 12px; margin: 0; }
+.tools-used p { font-size: 12px; color: var(--muted); line-height: 1.9; margin: 0; }
+.experience-section { background: #eeeee6; padding: 80px 0; }
+.experience-row { display: grid; grid-template-columns: 1fr 2fr; gap: 45px; padding: 30px 0; border-top: 1px solid #d6d8cc; }
+.experience-row p { font-size: 12px; color: var(--muted); line-height: 1.8; }
+.experience-row .experience-date { color: var(--ink); margin-bottom: 6px; }
+.experience-row h3 { font-size: 19px; }
+.experience-row ul { padding-left: 17px; margin-bottom: 0; }
+.experience-row li { font-size: 12px; line-height: 1.9; color: var(--muted); padding: 5px 0; }
+.education { display: grid; grid-template-columns: 1fr 2fr; gap: 45px; padding-top: 40px; margin-top: 15px; border-top: 1px solid #d6d8cc; }
+.education h2 { font-size: 30px; }
+.education > div { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; }
+.education h3 { font-size: 16px; }
+.education p { font-size: 12px; line-height: 1.9; color: var(--muted); }
+.contact-links a { display: flex; justify-content: space-between; gap: 12px; padding: 18px 0; border-bottom: 1px solid #53604f; font-size: 14px; overflow-wrap: anywhere; }
+.contact-links a:hover { color: var(--accent); }
+.contact-links .contact-email { font-size: clamp(16px, 2vw, 23px); padding-top: 0; }
+.contact-links p { font-size: 11px; color: #b3b9ad; margin: 24px 0 0; }
+@media (max-width: 760px) {
+  .hero h1 { font-size: clamp(44px, 10.8vw, 80px); }
+  .audit-method { grid-template-columns: 1fr; gap: 16px; }
+  .audit-card { padding: 22px; }
+  .audit-heading { flex-direction: column; gap: 10px; }
+  .audit-heading > div { gap: 12px; }
+  .audit-heading h3 { font-size: 21px; }
+  .audit-heading > p { text-align: left; }
+  .finding { grid-template-columns: 1fr; gap: 12px; }
+  .tools-used { flex-direction: column; gap: 10px; }
+  .experience-section { padding: 55px 0; }
+  .experience-row, .education { grid-template-columns: 1fr; gap: 15px; }
+  .education > div { grid-template-columns: 1fr; gap: 20px; }
+  .contact h2 { font-size: 36px; }
+}
