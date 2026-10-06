@@ -1,133 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Khalid Zikirullah, a backend developer working with JavaScript, Node.js, Express, and databases.">
+<meta name="theme-color" content="#f6f5f0">
+<title>Khalid Zikirullah | Developer</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./main.js" defer>
+</script>
 </head>
 <body>
-    <div id="home" class="container">
-        <div class="nav-bar">
-            <div class="toolbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#port">Porfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="header">
-            <div class="avater">
-                <img src="/bg.jpg">
-            </div>
-            <div class="name">
-                <p>My name is </p>
-                <h1>Khalid Zikirullah</h1>
-            </div>
-        </div>
-        <div class="content">
-            <div  id="port" class="card">
-                <div class="title">
-                    <h1>Porfolio</h1>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li>All</li>
-                        <li>Single page</li>
-                        <li>Landing</li>
-                    </ul>
-                    <hr>
-                <div class="text-content gallery">
-                    <div class="info">
-                        <img src="/image.jpg">
-                        <button>View</button>
-                    </div>
-                    <div class="info">
-                        <img src="/image.jpg">
-                        <button>View</button>
-                    </div>
-                    <div class="info">
-                        <img src="/image.jpg">
-                        <button>View</button>
-                    </div>
-                    <div class="info">
-                        <img src="/image.jpg">
-                        <button>View</button>
-                    </div>
-                     <div class="info">
-                        <img src="/image.jpg">
-                        <button>View</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div id="about" class="card">
-                <div class="title">
-                    <h1>About</h1>
-                </div>
-                <div class="text-content about">
-                    Hi There, I'm Khalid Zikirullah - <span>Back End Developer</span><br>
-                    I'm working as a Back end developer. I spend my whole day,
-                    practically every day, experimenting with Node.js,Express,
-                    MongoDB and the likes. and i'm a self taught developer.
-                    If you need to develop a service project for the needs of your business i can be as involved in your project as you need me to be
-                </div>
-            </div>
-            <div id="skills" class="card">
-                <div class="title">
-                    <h1>Skills</h1>
-                </div>
-                <div class="text-content">
-                    <div class="front-end">
-                        <div class="tech-name">
-                            <h1>Front End</h1>
-                        </div> 
-                        <div class="front-board">
-                        </div>
-                    </div>
-                    <div class="back-end">
-                        <div class="tech-name">
-                            <h1>Back End</h1>
-                        </div> 
-                        <div class="back-board">
-                        </div>
-                    </div>
-                    <div class="database">
-                        <div class="tech-name">
-                            <h1>Database</h1>
-                        </div> 
-                        <div class="data-board">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="contact" class="card">
-                <div class="title">
-                    <h1>Contact</h1>
-                </div>
-                <div class="text-content">
-                   <div class="field">
-                       <input type="text" placeholder="Your name">
-                   </div>
-                   <div class="field">
-                       <input type="email" placeholder="Your email">
-                   </div>
-                   <div class="field">
-                       <input type="text" placeholder="Subject">
-                   </div>
-                    <div class="field">
-                       <textarea>Message</textarea>
-                   </div>
-                   <div class="btn">
-                       <button>Send Message</button>
-                   </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="/main.js"></script>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap">
+<a class="logo" href="#home">khalid<span>.</span>
+</a>
+<nav aria-label="Main navigation">
+<a href="#work">Work</a>
+<a href="#about">About</a>
+<a href="#skills">Toolkit</a>
+</nav>
+<a class="talk" href="#contact">Let’s talk ↗</a>
+</header>
+<main id="main">
+<section class="hero wrap" id="home">
+<div>
+<h1>Khalid<br>Zikirullah</h1>
+<p class="intro">I’m Khalid Zikirullah, a developer who enjoys turning complex problems into clear, useful web experiences. From the interface to the logic behind it.</p>
+<div class="actions">
+<a class="button" href="#work">Explore my work <span>↘</span>
+</a>
+<a class="text-link" href="#about">A little about me →</a>
+</div>
+</div>
+<div class="portrait">
+<div class="photo">
+<img src="./bg.jpg" alt="Khalid Zikirullah smiling" width="480" height="981" fetchpriority="high">
+</div>
+<div class="caption">
+<span>Khalid Zikirullah</span>
+<span>Backend developer</span>
+</div>
+</div>
+</section>
+<section class="section wrap" id="work">
+<div class="heading">
+<div>
+<h2>Selected work</h2>
+</div>
+
+</div>
+<div class="toolbar">
+<p>1 project</p>
+<div class="filters" role="group" aria-label="Filter projects">
+<button data-filter="all" class="active" aria-pressed="true">All work <small>01</small>
+</button>
+<button data-filter="frontend" aria-pressed="false">Frontend</button>
+<button data-filter="backend" aria-pressed="false">Backend</button>
+</div>
+</div>
+<article class="project" data-category="frontend">
+<button class="project-image" id="open-project" aria-label="View ecommerce storefront project">
+<div class="browser">
+<span>
+</span>
+<span>
+</span>
+<span>
+</span>
+<p>Commerce / Interface study</p>
+<b>↗</b>
+</div>
+<img src="./image.jpg" alt="Ecommerce interface with category navigation and product cards" width="680" height="720" loading="lazy">
+<span class="view">Take a closer look ↗</span>
+</button>
+<div class="project-details">
+<div>
+<p class="eyebrow">01 / INTERFACE STUDY</p>
+<h3>Ecommerce storefront</h3>
+<p>A storefront concept exploring product discovery, clear navigation, and a familiar shopping experience.</p>
+</div>
+<div class="tags">
+<span>Web interface</span>
+<span>Ecommerce</span>
+<span>Concept</span>
+</div>
+</div>
+</article>
+<p class="empty" hidden>Backend projects are still being documented. Explore the toolkit below to see what I work with.</p>
+</section>
+<section class="about" id="about">
+<div class="wrap about-grid">
+<div>
+<h2>About me</h2>
+</div>
+<div class="about-copy">
+<p>I’m a self-taught developer with a focus on backend development. My days often involve experimenting with Node.js, Express, and databases, connecting the pieces that make a web application useful.</p>
+<p>I also enjoy working on the frontend, where those systems become something people can see and use. I care about clear interfaces, readable code, and learning something with every project.</p>
+</div>
+</div>
+</section>
+<section class="section wrap" id="skills">
+<div class="heading">
+<div>
+<h2>Toolkit</h2>
+</div>
+
+</div>
+<div class="toolkit">
+<article class="tool">
+<span class="icon" aria-hidden="true">&lt;/&gt;</span>
+<span class="number">01</span>
+<h3>Frontend</h3>
+<p>Bringing structure, style, and interaction to the browser.</p>
+<ul>
+<li>HTML <span>Structure</span>
+</li>
+<li>CSS <span>Presentation</span>
+</li>
+<li>JavaScript <span>Interaction</span>
+</li>
+<li>React <span>Components</span>
+</li>
+</ul>
+</article>
+<article class="tool">
+<span class="icon" aria-hidden="true">{ }</span>
+<span class="number">02</span>
+<h3>Backend</h3>
+<p>Connecting the interface to the logic that powers it.</p>
+<ul>
+<li>Node.js <span>Runtime</span>
+</li>
+<li>Express <span>Web services</span>
+</li>
+</ul>
+</article>
+<article class="tool">
+<span class="icon" aria-hidden="true">≡</span>
+<span class="number">03</span>
+<h3>Databases</h3>
+<p>Giving application data a place and a useful structure.</p>
+<ul>
+<li>MongoDB <span>Documents</span>
+</li>
+<li>MySQL <span>Relational data</span>
+</li>
+</ul>
+</article>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="wrap contact-grid">
+<div>
+<h2>Contact</h2>
+<p>Use the form to prepare a message about your project.</p>
+<span class="big-arrow" aria-hidden="true">↗</span>
+</div>
+<form id="contact-form">
+<div class="form-row">
+<div class="field">
+<label for="name">Your name</label>
+<input id="name" name="name" autocomplete="name" placeholder="How should I call you|" required maxlength="100">
+</div>
+<div class="field">
+<label for="email">Email address</label>
+<input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254">
+</div>
+</div>
+<div class="field">
+<label for="message">What are you thinking|</label>
+<textarea id="message" name="message" placeholder="Tell me a little about your idea…" rows="4" required maxlength="5000">
+</textarea>
+</div>
+<div class="form-bottom">
+<p>This form prepares a message to copy.<br>Direct delivery isn’t connected yet.</p>
+<button class="button light" type="submit">Prepare message <span>↗</span>
+</button>
+</div>
+<p id="form-status" role="status">
+</p>
+</form>
+</div>
+</section>
+</main>
+<footer class="wrap">
+<a class="logo" href="#home">khalid<span>.</span>
+</a>
+<p>© <span id="year">2026</span> Khalid Zikirullah.</p>
+<a class="text-link" href="#home">Back to top ↑</a>
+</footer>
+<dialog id="project-dialog">
+<div class="dialog-heading">
+<p class="eyebrow">PROJECT / INTERFACE STUDY</p>
+<button class="close" aria-label="Close project details">✕</button>
+</div>
+<h2>Ecommerce storefront</h2>
+<p>A visual concept for an online shop, featuring category navigation, a promotional area, and a product grid.</p>
+<img src="./image.jpg" alt="Full ecommerce storefront interface study" width="680" height="720">
+<p>A live demo and source link have not been added yet.</p>
+</dialog>
+<dialog id="message-dialog">
+<div class="dialog-heading">
+<p class="eyebrow">YOUR MESSAGE</p>
+<button class="close" aria-label="Close message preview">✕</button>
+</div>
+<h2>Message preview</h2>
+<p>Your message is prepared below. Nothing has been sent.</p>
+<textarea id="message-preview" rows="9" readonly aria-label="Prepared message">
+</textarea>
+<button id="copy-message" class="button" type="button">Copy message ↗</button>
+<p id="copy-status" role="status">
+</p>
+</dialog>
 </body>
 </html>
